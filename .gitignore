@@ -1,0 +1,66 @@
+# Datos experimentales y CSV, en cualquier ubicación
+/data/
+*.csv
+*.CSV
+
+# Instrucciones y lanzador locales
+AGENTS.md
+/run_experiment.sh
+
+# Python y entornos locales
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Checkpoints, logs y artefactos generados
+checkpoints/
+logs/
+outputs/
+results/
+artifacts/
+generated/
+figures/
+*.npz
+*.npy
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.h5
+*.hdf5
+*.ply
+*.pcd
+*.las
+*.laz
+*.log
+*.png
+*.pdf
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.zst
+
+# La bitácora es documentación textual, no un checkpoint del modelo
+!docs/checkpoints/
+docs/checkpoints/*
+!docs/checkpoints/*.md
+
+# Credenciales, configuración privada y estado local del agente
+.env
+.env.*
+*.pem
+*.key
+.aws/
+.agents/
+.codex/
+
+# Sistema / editor
+.DS_Store
+.vscode/
+.idea/

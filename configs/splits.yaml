@@ -1,0 +1,23 @@
+maize:
+  train:
+    - Maize01
+    - Maize02
+    - Maize04
+    - Maize05
+  val:
+    - Maize03
+  test:
+    - Maize06
+    - Maize07
+
+tomato:
+  train:
+    - Tomato01
+    - Tomato02
+    - Tomato03
+    - Tomato04
+  val:
+    - Tomato05
+  test:
+    - Tomato06
+    - Tomato07
